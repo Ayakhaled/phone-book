@@ -1,0 +1,114 @@
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.header {
+  background: #009688;
+  padding-top: 15px;
+}
+
+.addBtn{
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+}
+
+.addBtn: hover {
+  background: #006E63;
+}
+
+.phoneBookCont{
+  margin-top: 50px;
+}
+
+phonebook-cont{
+  border: 1px solid #009688;
+
+}
+
+.phonebook-header{
+  width: 100%;
+  background: #009688;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.email{
+  color: #908f8f;
+  margin-left: 5px;
+}
+
+.info {
+  margin-left: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.info p{
+  display: inline;
+}
+
+.phone-num{
+  margin-left: 18px;
+}
+
+.phonebook-cont{
+  background: #d3d3d3;
+  min-height: 300px;
+  margin-bottom: 100px;
+  border-top: 0.5px solid #d3d3d3;
+  border-bottom: 0.5px solid #d3d3d3;
+}
+
+.contact-cont{
+  background: #fff;
+  margin: 1px;
+}
+
+.bin{
+  position: absolute;
+  top: 12px;
+  right: 7px;
+  width: 55%;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.contact-field{
+  margin: 10px;
+  width: 97%;
+}
+
+.btn-create {
+  width: 100%;
+  background: #009688;
+  border: 0px
+}
+
+.addBtn .btn .btn-primary: hover{
+  background: #006E63;
+}
