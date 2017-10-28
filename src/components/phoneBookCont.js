@@ -22,12 +22,6 @@ class PhoneBookCont extends Component {
     var contactsData = [];
     contactsData = this.props.contacts;
 
-    contactsData = contactsData.sort(function (a,b) {
-        var textA = a.name.toUpperCase();
-        var textB = b.name.toUpperCase();
-        return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
-    })
-
     let contacts = contactsData.map((item, index) => (
       <Row className="contact-cont" key={index}>
         <Contact i={index} contact={item} removeContact={this.props.removeContact}/>
